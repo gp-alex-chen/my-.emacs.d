@@ -27,6 +27,7 @@
 (global-set-key (kbd "<f2>") 'open-init-file)
 ;; 不保存文件
 (setq make-backup-files nil)
+(setq auto-save-default nil)
 ;; 设置 org 语法高亮
 (require 'org)
 (setq org-src-fontify-natively t)
