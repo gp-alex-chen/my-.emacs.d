@@ -1,4 +1,26 @@
-((("count-leaves" .
+((("org-agenda-files" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("kbd" .
+   [0 0 1])
+  ("init-swiper" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("init-ivy" .
+   [0 0 0 0 1 0 0 0])
+  ("provide" .
+   [0 0 0 0 0 0 1])
+  ("require" .
+   [0 0 0 0 0 0 1])
+  ("show-paren-mode" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("load-path" .
+   [0 0 0 0 0 0 0 0 1])
+  ("nil" .
+   [0 0 1])
+  ("make-backup-files" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("setq" .
+   [0 0 0 3])
+  ("count-leaves" .
    [0 0 0 0 0 0 0 0 0 0 0 3])
   ("square-list" .
    [0 0 0 0 0 0 0 0 0 0 1])
@@ -227,4 +249,10 @@
   ("cdr" .
    [0 0 1])
   ("count" .
-   [0 0 0 0 1])))
+   [0 0 0 0 1])
+  ("global-set-key" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("open-init-file" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("counsel-describe-function" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])))

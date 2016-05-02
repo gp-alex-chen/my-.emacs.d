@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
- run-scheme
- ace-jump-line-mode
- ace-jump-mode
- goto-line
- line-number-mode
- ace-jump-word-mode
- backward-char
+ org-cycle-agenda-files
+ org-agenda
+ auto-complete-mode
+ make-directory
+ find-function
+ nodejs-repl
+ package-list-packages
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 3)
+ (package-list-packages . 12)
  (list-packages . 3)
- (rectangle-number-lines . 21)
- (line-number-mode . 4)
+ (rectangle-number-lines . 23)
+ (line-number-mode . 6)
  (menu-bar-showhide-tool-bar-menu-customize-enable-bottom . 1)
  (org-mode . 2)
  (org-version . 4)
@@ -24,9 +24,9 @@
  (org-odt-export-to-odt . 4)
  (auto-insert . 1)
  (auto-complete . 2)
- (auto-complete-mode . 5)
- (make-directory . 1)
- (package-install . 5)
+ (auto-complete-mode . 9)
+ (make-directory . 3)
+ (package-install . 8)
  (cfs-edit-profile . 3)
  (delete-file . 1)
  (eww-open-file . 1)
@@ -43,4 +43,14 @@
  (ace-jump-word-mode . 2)
  (goto-line . 1)
  (run-scheme . 3)
+ (ace-jump-char-mode . 1)
+ (eval-buffer . 1)
+ (load-theme . 3)
+ (customize-group . 1)
+ (smartparens-mode . 3)
+ (nodejs-repl . 4)
+ (nodejs-repl-send-buffer . 1)
+ (find-function . 1)
+ (org-agenda . 3)
+ (org-cycle-agenda-files . 1)
 )
