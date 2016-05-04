@@ -53,4 +53,13 @@
 
 (setq scheme-program-name "guile")
 
+;; 无须询问是否递归删除或复制文件
+(setq dired-recursive-deletes 'always)
+(setq dired-recursive-copies 'always)
+
+;; 不创建每一个目录 buff
+(put 'dired-find-alternate-file 'disabled nil)
+(with-eval-after-load 'dired
+  (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))
+
 (provide 'init-emacs-config)

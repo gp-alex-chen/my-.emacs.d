@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- customize-group
+ grep
  auto-complete-mode
+ customize-group
  org-agenda
  global-auto-complete-mode
  auto-complete
  counsel-git
- package-list-packages
 )
 
 ;; ----- smex-data -----
@@ -24,7 +24,7 @@
  (org-odt-export-to-odt . 4)
  (auto-insert . 1)
  (auto-complete . 5)
- (auto-complete-mode . 19)
+ (auto-complete-mode . 20)
  (make-directory . 3)
  (package-install . 8)
  (cfs-edit-profile . 3)
@@ -55,4 +55,5 @@
  (org-cycle-agenda-files . 1)
  (counsel-git . 1)
  (global-auto-complete-mode . 2)
+ (grep . 3)
 )
