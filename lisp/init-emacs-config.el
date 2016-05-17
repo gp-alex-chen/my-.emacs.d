@@ -62,4 +62,7 @@
 (with-eval-after-load 'dired
   (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))
 
+;; save as utf-8
+(set-language-environment "UTF-8")
+
 (provide 'init-emacs-config)

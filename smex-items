@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- grep
- auto-complete-mode
- customize-group
+ org-pomodoro
+ helm-ag
+ iedit-mode
+ helm-ag-project-root
+ helm-do-ag-project-root
+ package-list-packages
  org-agenda
- global-auto-complete-mode
- auto-complete
- counsel-git
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 13)
+ (package-list-packages . 27)
  (list-packages . 3)
  (rectangle-number-lines . 23)
  (line-number-mode . 6)
@@ -46,14 +46,23 @@
  (ace-jump-char-mode . 1)
  (eval-buffer . 1)
  (load-theme . 3)
- (customize-group . 3)
+ (customize-group . 4)
  (smartparens-mode . 3)
  (nodejs-repl . 4)
  (nodejs-repl-send-buffer . 1)
  (find-function . 1)
- (org-agenda . 4)
- (org-cycle-agenda-files . 1)
+ (org-agenda . 11)
+ (org-cycle-agenda-files . 2)
  (counsel-git . 1)
  (global-auto-complete-mode . 2)
  (grep . 3)
+ (ag . 3)
+ (imenu . 1)
+ (iedit-mode . 9)
+ (custom-theme-visit-theme . 1)
+ (org-capture . 3)
+ (org-pomodoro . 7)
+ (helm-ag . 8)
+ (helm-do-ag-project-root . 3)
+ (helm-ag-project-root . 1)
 )

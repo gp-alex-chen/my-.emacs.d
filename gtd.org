@@ -1,0 +1,7 @@
+* 工作安排
+
+** DONE [#B] 简单的笔记
+DEADLINE: <2016-05-18 三> SCHEDULED: <2016-05-17 二>
+** DONE [#B] Clean emacs 
+
+
