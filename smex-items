@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- org-pomodoro
- helm-ag
- iedit-mode
- helm-ag-project-root
- helm-do-ag-project-root
  package-list-packages
  org-agenda
+ org-capture
+ helm-ag
+ org-pomodoro
+ iedit-mode
+ helm-ag-project-root
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 27)
+ (package-list-packages . 31)
  (list-packages . 3)
  (rectangle-number-lines . 23)
  (line-number-mode . 6)
@@ -27,7 +27,7 @@
  (auto-complete-mode . 20)
  (make-directory . 3)
  (package-install . 8)
- (cfs-edit-profile . 3)
+ (cfs-edit-profile . 4)
  (delete-file . 1)
  (eww-open-file . 1)
  (shell . 3)
@@ -51,7 +51,7 @@
  (nodejs-repl . 4)
  (nodejs-repl-send-buffer . 1)
  (find-function . 1)
- (org-agenda . 11)
+ (org-agenda . 15)
  (org-cycle-agenda-files . 2)
  (counsel-git . 1)
  (global-auto-complete-mode . 2)
@@ -60,9 +60,9 @@
  (imenu . 1)
  (iedit-mode . 9)
  (custom-theme-visit-theme . 1)
- (org-capture . 3)
+ (org-capture . 5)
  (org-pomodoro . 7)
- (helm-ag . 8)
+ (helm-ag . 9)
  (helm-do-ag-project-root . 3)
  (helm-ag-project-root . 1)
 )

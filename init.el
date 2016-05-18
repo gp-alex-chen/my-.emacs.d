@@ -47,6 +47,9 @@
 ;; expand-region
 (global-set-key (kbd "C-=") 'er/expand-region)
 
+;; font
+(require 'chinese-fonts-setup)
+
 (provide 'init)
 
 ;;;;;;;;;;;;;;;;;;;;   end   ;;;;;;;;;;;;;;;;;;;;;;;;

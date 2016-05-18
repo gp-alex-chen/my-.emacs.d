@@ -4,4 +4,9 @@
 DEADLINE: <2016-05-18 三> SCHEDULED: <2016-05-17 二>
 ** DONE [#B] Clean emacs 
 
+** DONE [#B] org-mode 表格中英文混排
+DEADLINE: <2016-05-18 三>
+
+
+** TODO [#B] 
 
