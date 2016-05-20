@@ -1,10 +1,12 @@
 (require 'package)
 (package-initialize)
 ;; 增加软件包仓库
-(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/"))
-(when (< emacs-major-version 24)
-  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
-(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+;;(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/"))
+;;(when (< emacs-major-version 24)
+;;  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/"))) 
+;;(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+(setq package-archives '(("gnu"   . "http://elpa.zilongshanren.com/gnu/")
+                         ("melpa" . "http://elpa.zilongshanren.com/melpa/")))
 ;; 定义require-package函数
 (defun require-package (package &optional min-version no-refresh)
   "Install given PACKAGE, optionally requiring MIN-VERSION.
