@@ -2,17 +2,17 @@
 ;; ----- smex-history -----
 (
  org-agenda
- package-list-packages
  org-capture
- helm-ag
- org-pomodoro
- iedit-mode
- helm-ag-project-root
+ youdao-dictionary-search-at-point
+ load-theme
+ auto-complete-mode
+ revert-buffer-with-coding-system
+ make-directory
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 33)
+ (package-list-packages . 37)
  (list-packages . 3)
  (rectangle-number-lines . 23)
  (line-number-mode . 6)
@@ -24,8 +24,8 @@
  (org-odt-export-to-odt . 4)
  (auto-insert . 1)
  (auto-complete . 5)
- (auto-complete-mode . 20)
- (make-directory . 3)
+ (auto-complete-mode . 23)
+ (make-directory . 4)
  (package-install . 8)
  (cfs-edit-profile . 4)
  (delete-file . 1)
@@ -34,9 +34,9 @@
  (mark-whole-buffer . 7)
  (isearch-yank-x-selection . 1)
  (clipboard-kill-ring-save . 2)
- (magit-status . 2)
+ (magit-status . 3)
  (magit-push . 1)
- (magit-commit . 1)
+ (magit-commit . 2)
  (ace-jump-mode . 6)
  (ace-jump-line-mode . 3)
  (backward-char . 1)
@@ -45,13 +45,13 @@
  (run-scheme . 3)
  (ace-jump-char-mode . 1)
  (eval-buffer . 1)
- (load-theme . 3)
+ (load-theme . 9)
  (customize-group . 4)
  (smartparens-mode . 3)
  (nodejs-repl . 4)
  (nodejs-repl-send-buffer . 1)
  (find-function . 1)
- (org-agenda . 18)
+ (org-agenda . 25)
  (org-cycle-agenda-files . 2)
  (counsel-git . 1)
  (global-auto-complete-mode . 2)
@@ -60,9 +60,17 @@
  (imenu . 1)
  (iedit-mode . 9)
  (custom-theme-visit-theme . 1)
- (org-capture . 6)
+ (org-capture . 8)
  (org-pomodoro . 7)
  (helm-ag . 9)
  (helm-do-ag-project-root . 3)
  (helm-ag-project-root . 1)
+ (magit-remote-add . 1)
+ (mwe:open-command-log-buffer . 5)
+ (mwe:log-keyboard-commands . 4)
+ (pallet-mode . 1)
+ (pallet-init . 1)
+ (pallet-install . 1)
+ (youdao-dictionary-search-at-point . 6)
+ (revert-buffer-with-coding-system . 3)
 )

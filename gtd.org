@@ -7,9 +7,12 @@ DEADLINE: <2016-05-18 三> SCHEDULED: <2016-05-17 二>
 ** DONE [#B] org-mode 表格中英文混排
 DEADLINE: <2016-05-18 三>
 
-** TODO [#B] 搭建 Android Stutio
+** DONE [#B] 搭建 Android Stutio 环境
 DEADLINE: <2016-05-22 日>
 
-** TODO [#B] 实现 Xposed 插件处理 Umeng 类的统计插桩
+** DONE [#B] 实现 Xposed 插件处理 Umeng 类的统计插桩
 DEADLINE: <2016-05-22 日>
+
+
+
 

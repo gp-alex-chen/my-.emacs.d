@@ -10,7 +10,7 @@
 (require 'init-smex)
 ;; (require 'init-helm)
 ;; 加载主题
-;; (load-theme 'monokai t)
+(load-theme 'monokai t)
 ;; 连删
 (require 'hungry-delete)
 (global-hungry-delete-mode)
@@ -54,6 +54,9 @@
 (window-numbering-mode 1)
 (require 'powerline)
 (powerline-default-theme)
+
+;; youdao
+(setq url-automatic-caching t)
 
 (provide 'init)
 
