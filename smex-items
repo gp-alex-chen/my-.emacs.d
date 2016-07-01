@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- shell
- c-mode
- org-mode
- org-agenda
- iedit-mode
- occur
+ package-list-packages
+ helm-occur
  helm-ag
+ load-theme
+ sp-cheat-sheet
+ smartparens-mode
+ shell
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 37)
+ (package-list-packages . 41)
  (list-packages . 3)
  (rectangle-number-lines . 23)
  (line-number-mode . 6)
@@ -45,9 +45,9 @@
  (run-scheme . 3)
  (ace-jump-char-mode . 1)
  (eval-buffer . 1)
- (load-theme . 9)
+ (load-theme . 17)
  (customize-group . 4)
- (smartparens-mode . 3)
+ (smartparens-mode . 4)
  (nodejs-repl . 4)
  (nodejs-repl-send-buffer . 1)
  (find-function . 1)
@@ -62,7 +62,7 @@
  (custom-theme-visit-theme . 1)
  (org-capture . 8)
  (org-pomodoro . 7)
- (helm-ag . 11)
+ (helm-ag . 12)
  (helm-do-ag-project-root . 4)
  (helm-ag-project-root . 1)
  (magit-remote-add . 1)
@@ -78,4 +78,8 @@
  (magit-diff . 2)
  (occur . 2)
  (c-mode . 1)
+ (sp-split-sexp . 3)
+ (sp-splice-sexp . 5)
+ (sp-cheat-sheet . 1)
+ (helm-occur . 1)
 )
