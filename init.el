@@ -7,7 +7,7 @@
 ;; 补全
 (require 'init-auto-complete)
 ;; smex
-;;(require 'init-smex)
+(require 'init-smex)
 ;; helm
 (require 'init-helm)
 ;; 加载主题
@@ -40,7 +40,7 @@
 ;; acg
 (require 'init-acg)
 ;; swiper
-;; (require 'init-swiper)
+;;(require 'init-swiper)
 
 ;; flycheck
 (add-hook 'js2-mode-hook 'flycheck-mode)

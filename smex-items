@@ -1,23 +1,23 @@
 
 ;; ----- smex-history -----
 (
+ helm-info-auctex
  package-list-packages
- helm-occur
+ helm-browse-project
  helm-ag
- load-theme
- sp-cheat-sheet
- smartparens-mode
- shell
+ org-mode
+ helm-buffers-list
+ org-agenda
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 41)
+ (package-list-packages . 43)
  (list-packages . 3)
  (rectangle-number-lines . 23)
  (line-number-mode . 6)
  (menu-bar-showhide-tool-bar-menu-customize-enable-bottom . 1)
- (org-mode . 3)
+ (org-mode . 4)
  (org-version . 4)
  (org-export-dispatch . 2)
  (org-odt-export-as-odf-and-open . 1)
@@ -44,14 +44,14 @@
  (goto-line . 1)
  (run-scheme . 3)
  (ace-jump-char-mode . 1)
- (eval-buffer . 1)
+ (eval-buffer . 2)
  (load-theme . 17)
- (customize-group . 4)
+ (customize-group . 5)
  (smartparens-mode . 4)
  (nodejs-repl . 4)
  (nodejs-repl-send-buffer . 1)
  (find-function . 1)
- (org-agenda . 26)
+ (org-agenda . 31)
  (org-cycle-agenda-files . 2)
  (counsel-git . 1)
  (global-auto-complete-mode . 2)
@@ -60,9 +60,9 @@
  (imenu . 1)
  (iedit-mode . 15)
  (custom-theme-visit-theme . 1)
- (org-capture . 8)
+ (org-capture . 9)
  (org-pomodoro . 7)
- (helm-ag . 12)
+ (helm-ag . 17)
  (helm-do-ag-project-root . 4)
  (helm-ag-project-root . 1)
  (magit-remote-add . 1)
@@ -82,4 +82,11 @@
  (sp-splice-sexp . 5)
  (sp-cheat-sheet . 1)
  (helm-occur . 1)
+ (helm-grep-mode . 1)
+ (helm-projects-find-files . 2)
+ (helm-find-files . 1)
+ (helm-locate . 1)
+ (helm-buffers-list . 1)
+ (helm-browse-project . 1)
+ (helm-info-auctex . 1)
 )

@@ -1,11 +1,11 @@
 HTTP/1.1 200 OK
 Server: nginx/1.10.1
-Date: Fri, 01 Jul 2016 01:03:24 GMT
+Date: Tue, 05 Jul 2016 00:39:02 GMT
 Content-Type: text/plain; charset=utf-8
-Content-Length: 28637
-Last-Modified: Fri, 01 Jul 2016 00:01:35 GMT
+Content-Length: 28880
+Last-Modified: Tue, 05 Jul 2016 00:05:31 GMT
 Connection: keep-alive
-ETag: "5775b2df-6fdd"
+ETag: "577af9cb-70d0"
 Accept-Ranges: bytes
 
 (1
@@ -155,6 +155,11 @@ Accept-Ranges: bytes
 	       nil "Major mode for CoffeeScript files" single
 	       ((:url . "http://github.com/defunkt/coffee-mode")
 		(:keywords "coffeescript" "major" "mode"))])
+ (compact-docstrings .
+		     [(0 1)
+		      nil "Shrink blank lines in docstrings and doc comments" single
+		      ((:url . "https://github.com/cpitclaudel/compact-docstrings")
+		       (:keywords "convenience" "faces" "lisp" "maint" "c"))])
  (company .
 	  [(0 9 0)
 	   ((emacs
@@ -615,7 +620,7 @@ Accept-Ranges: bytes
 	     ((:url . "https://github.com/michael-heerdegen/on-screen.el")
 	      (:keywords "convenience"))])
  (org .
-      [(20160627)
+      [(20160704)
        nil "Outline-based notes management and organizer" tar nil])
  (osc .
       [(0 1)
