@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- helm-info-auctex
- package-list-packages
- helm-browse-project
  helm-ag
- org-mode
- helm-buffers-list
- org-agenda
+ iedit-mode
+ load-theme
+ magit-remote-add
+ magit-diff
+ magit-status
+ package-list-packages
 )
 
 ;; ----- smex-data -----
@@ -34,7 +34,7 @@
  (mark-whole-buffer . 7)
  (isearch-yank-x-selection . 1)
  (clipboard-kill-ring-save . 2)
- (magit-status . 4)
+ (magit-status . 5)
  (magit-push . 1)
  (magit-commit . 2)
  (ace-jump-mode . 6)
@@ -45,7 +45,7 @@
  (run-scheme . 3)
  (ace-jump-char-mode . 1)
  (eval-buffer . 2)
- (load-theme . 17)
+ (load-theme . 27)
  (customize-group . 5)
  (smartparens-mode . 4)
  (nodejs-repl . 4)
@@ -58,14 +58,14 @@
  (grep . 3)
  (ag . 3)
  (imenu . 1)
- (iedit-mode . 15)
+ (iedit-mode . 19)
  (custom-theme-visit-theme . 1)
  (org-capture . 9)
  (org-pomodoro . 7)
- (helm-ag . 17)
+ (helm-ag . 18)
  (helm-do-ag-project-root . 4)
  (helm-ag-project-root . 1)
- (magit-remote-add . 1)
+ (magit-remote-add . 2)
  (mwe:open-command-log-buffer . 5)
  (mwe:log-keyboard-commands . 4)
  (pallet-mode . 1)
@@ -75,7 +75,7 @@
  (revert-buffer-with-coding-system . 3)
  (magit-stash-list . 1)
  (magit-log . 1)
- (magit-diff . 2)
+ (magit-diff . 3)
  (occur . 2)
  (c-mode . 1)
  (sp-split-sexp . 3)
