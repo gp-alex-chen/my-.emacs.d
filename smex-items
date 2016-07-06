@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- helm-ag
+ insert-p-tag
+ insert-char
+ mkdir
  iedit-mode
- load-theme
- magit-remote-add
- magit-diff
- magit-status
- package-list-packages
+ smartparens-global-mode
+ smartparens-mode
+ helm-ag
 )
 
 ;; ----- smex-data -----
@@ -47,7 +47,7 @@
  (eval-buffer . 2)
  (load-theme . 27)
  (customize-group . 5)
- (smartparens-mode . 4)
+ (smartparens-mode . 8)
  (nodejs-repl . 4)
  (nodejs-repl-send-buffer . 1)
  (find-function . 1)
@@ -58,11 +58,11 @@
  (grep . 3)
  (ag . 3)
  (imenu . 1)
- (iedit-mode . 19)
+ (iedit-mode . 21)
  (custom-theme-visit-theme . 1)
  (org-capture . 9)
  (org-pomodoro . 7)
- (helm-ag . 18)
+ (helm-ag . 19)
  (helm-do-ag-project-root . 4)
  (helm-ag-project-root . 1)
  (magit-remote-add . 2)
@@ -89,4 +89,8 @@
  (helm-buffers-list . 1)
  (helm-browse-project . 1)
  (helm-info-auctex . 1)
+ (smartparens-global-mode . 1)
+ (mkdir . 1)
+ (insert-char . 1)
+ (insert-p-tag . 3)
 )

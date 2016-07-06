@@ -15,7 +15,9 @@
 ;; 连删
 (require 'hungry-delete)
 ;; 括号匹配
-(require 'smartparens-config)
+(require 'init-smartparens)
+;;(require 'smartparens-config)
+;;(smartparens-mode 1)
 
 ;; js 相关
 (require 'init-js2mode)

@@ -17,7 +17,7 @@
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
 (global-set-key (kbd "C-s") 'helm-swoop)
 (global-set-key (kbd "C-h SPC") 'helm-all-mark-rings)
-(global-set-key (kbd "<tab>") 'helm-execute-persistent-action)
+(define-key helm-map (kbd "<tab>") 'helm-execute-persistent-action)
 
 
 (setq helm-split-window-in-side-p           t

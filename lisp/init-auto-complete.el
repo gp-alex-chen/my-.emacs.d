@@ -2,7 +2,7 @@
 (global-auto-complete-mode t)
 
 ;; 按下TAB时首先缩进所在行，然后尝试补全
-;; (setq tab-always-indent 'complete)
+(setq tab-always-indent 'complete)
 
 (setq ac-delay 0.08)
 (setq ac-auto-show-menu 0.08)
