@@ -16,8 +16,6 @@
 (require 'hungry-delete)
 ;; 括号匹配
 (require 'init-smartparens)
-;;(require 'smartparens-config)
-;;(smartparens-mode 1)
 
 ;; js 相关
 (require 'init-js2mode)
@@ -36,7 +34,7 @@
 ;;(require 'init-swiper)
 
 ;; flycheck
-(add-hook 'js2-mode-hook 'flycheck-mode)
+;; (add-hook 'js2-mode-hook 'flycheck-mode)
 
 ;; expand-region
 (global-set-key (kbd "C-=") 'er/expand-region)
@@ -45,10 +43,7 @@
 (require 'chinese-fonts-setup)
 
 ;; window numbering
-(window-numbering-mode 1)
-(require 'powerline)
-(powerline-default-theme)
-
+(require 'init-window-numbering)
 ;; youdao
 (setq url-automatic-caching t)
 

@@ -6,10 +6,18 @@
 
 (setq ac-delay 0.08)
 (setq ac-auto-show-menu 0.08)
+
+;; Use C-n/C-p to select candidate ONLY when completion menu is displayed
+;; Below code is copied from official manual
+(setq ac-use-menu-map t)
+;; Default settings
+(define-key ac-menu-map "\C-n" 'ac-next)
+(define-key ac-menu-map "\C-p" 'ac-previous)
+
 ;; 阻止自动触发补全动作
 ;; (setq-default ac-expand-on-auto-complete nil) 
 ;; (setq-default ac-auto-start nil)
 ;; 用TAB作为手动触发补全动作的快捷键
-;; (ac-set-trigger-key "TAB")
+;; (ac-set-trigger-key "
 
 (provide 'init-auto-complete)

@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- insert-p-tag
+ helm-projectile-find-file
+ c-mode
+ imenu
+ package-list-packages
  insert-char
  mkdir
  iedit-mode
- smartparens-global-mode
- smartparens-mode
- helm-ag
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 43)
+ (package-list-packages . 45)
  (list-packages . 3)
  (rectangle-number-lines . 23)
  (line-number-mode . 6)
@@ -57,7 +57,7 @@
  (global-auto-complete-mode . 2)
  (grep . 3)
  (ag . 3)
- (imenu . 1)
+ (imenu . 5)
  (iedit-mode . 21)
  (custom-theme-visit-theme . 1)
  (org-capture . 9)
@@ -77,7 +77,7 @@
  (magit-log . 1)
  (magit-diff . 3)
  (occur . 2)
- (c-mode . 1)
+ (c-mode . 2)
  (sp-split-sexp . 3)
  (sp-splice-sexp . 5)
  (sp-cheat-sheet . 1)
@@ -93,4 +93,5 @@
  (mkdir . 1)
  (insert-char . 1)
  (insert-p-tag . 3)
+ (helm-projectile-find-file . 5)
 )
