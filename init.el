@@ -47,6 +47,9 @@
 ;; youdao
 (setq url-automatic-caching t)
 
+;; scheme
+(require 'init-scheme)
+
 (provide 'init)
 
 ;;;;;;;;;;;;;;;;;;;;   end   ;;;;;;;;;;;;;;;;;;;;;;;;

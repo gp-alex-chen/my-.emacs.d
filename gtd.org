@@ -15,3 +15,5 @@ DEADLINE: <2016-05-22 日>
 
 ** DONE [#B] 待完成项
 
+** TODO [#B] 总结 .emacs.d/lisp/init-scheme.el 代码
+
