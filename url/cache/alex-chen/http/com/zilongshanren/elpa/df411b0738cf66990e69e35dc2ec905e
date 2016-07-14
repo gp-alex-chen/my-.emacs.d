@@ -1,3 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx/1.10.1
+Date: Thu, 14 Jul 2016 14:18:12 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 29121
+Last-Modified: Thu, 14 Jul 2016 08:01:45 GMT
+Connection: keep-alive
+ETag: "578746e9-71c1"
+Accept-Ranges: bytes
+
 (1
  (ace-window .
 	     [(0 9 0)

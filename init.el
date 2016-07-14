@@ -50,7 +50,12 @@
 ;; scheme
 (require 'init-scheme)
 
+;; git gutter
+(require 'init-git-gutter)
+
+;; mc
+(require 'init-multiple-cursors)
+
 (provide 'init)
 
 ;;;;;;;;;;;;;;;;;;;;   end   ;;;;;;;;;;;;;;;;;;;;;;;;
-

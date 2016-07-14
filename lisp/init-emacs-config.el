@@ -62,6 +62,8 @@
 (with-eval-after-load 'dired
   (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))
 
+;; goto line
+(global-set-key (kbd "M-g") 'goto-line)
 ;; save as utf-8
 (set-language-environment "UTF-8")
 

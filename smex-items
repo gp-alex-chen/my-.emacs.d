@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- org-agenda
- org-capture
- kh/scheme-send-last-sexp
- scheme-mode
+ goto-line
  youdao-dictionary-search-at-point
- diff
- c-mode
+ package-list-packages
+ magit-status
+ org-agenda
+ load-theme
+ auto-complete-mode
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 45)
+ (package-list-packages . 46)
  (list-packages . 3)
  (rectangle-number-lines . 23)
  (line-number-mode . 6)
@@ -34,14 +34,14 @@
  (mark-whole-buffer . 7)
  (isearch-yank-x-selection . 1)
  (clipboard-kill-ring-save . 2)
- (magit-status . 5)
+ (magit-status . 8)
  (magit-push . 1)
  (magit-commit . 2)
  (ace-jump-mode . 6)
  (ace-jump-line-mode . 3)
  (backward-char . 1)
  (ace-jump-word-mode . 2)
- (goto-line . 1)
+ (goto-line . 2)
  (run-scheme . 3)
  (ace-jump-char-mode . 1)
  (eval-buffer . 2)
@@ -71,7 +71,7 @@
  (pallet-mode . 1)
  (pallet-init . 1)
  (pallet-install . 1)
- (youdao-dictionary-search-at-point . 7)
+ (youdao-dictionary-search-at-point . 8)
  (revert-buffer-with-coding-system . 3)
  (magit-stash-list . 1)
  (magit-log . 1)
@@ -97,4 +97,6 @@
  (diff . 5)
  (scheme-mode . 1)
  (kh/scheme-send-last-sexp . 1)
+ (git-gutter:set-start-revision . 1)
+ (git-gutter:next-hunk . 1)
 )
