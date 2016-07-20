@@ -36,22 +36,6 @@
 ;; 高亮显示当前行
 (global-hl-line-mode t)
 
-;; turn on soft wrapping mode for org mode
-(add-hook 'org-mode-hook
-(lambda () (setq truncate-lines nil)))
-
-(setq org-startup-indented t)
-
-(org-babel-do-load-languages
-      'org-babel-load-languages
-      '((emacs-lisp . t)
-        (java . t)
-	(C . t)
-	(scheme . t)
-        (R . t)))
-(setq org-src-fontify-natively t) 
-
-(setq scheme-program-name "guile")
 
 ;; 无须询问是否递归删除或复制文件
 (setq dired-recursive-deletes 'always)
@@ -66,5 +50,10 @@
 (global-set-key (kbd "M-g") 'goto-line)
 ;; save as utf-8
 (set-language-environment "UTF-8")
+
+;; use apsell as ispell backend  
+(setq-default ispell-program-name "aspell")  
+;; use American English as ispell default dictionary  
+(ispell-change-dictionary "american" t) 
 
 (provide 'init-emacs-config)

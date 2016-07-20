@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/arithmetic/" "~/SICP/")
+("~/.emacs.d/" "~/SICP/" "~/arithmetic/")

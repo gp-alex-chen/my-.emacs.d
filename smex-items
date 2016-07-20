@@ -1,20 +1,20 @@
 
 ;; ----- smex-history -----
 (
- goto-line
  youdao-dictionary-search-at-point
- package-list-packages
- magit-status
- org-agenda
- load-theme
- auto-complete-mode
+ run-geiser
+ flyspell-mode
+ org-sparse-tree
+ mc/edit-lines
+ run-scheme
+ mc/mark-next-lines
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 46)
+ (package-list-packages . 47)
  (list-packages . 3)
- (rectangle-number-lines . 23)
+ (rectangle-number-lines . 31)
  (line-number-mode . 6)
  (menu-bar-showhide-tool-bar-menu-customize-enable-bottom . 1)
  (org-mode . 4)
@@ -34,7 +34,7 @@
  (mark-whole-buffer . 7)
  (isearch-yank-x-selection . 1)
  (clipboard-kill-ring-save . 2)
- (magit-status . 8)
+ (magit-status . 10)
  (magit-push . 1)
  (magit-commit . 2)
  (ace-jump-mode . 6)
@@ -42,7 +42,7 @@
  (backward-char . 1)
  (ace-jump-word-mode . 2)
  (goto-line . 2)
- (run-scheme . 3)
+ (run-scheme . 4)
  (ace-jump-char-mode . 1)
  (eval-buffer . 2)
  (load-theme . 27)
@@ -71,7 +71,7 @@
  (pallet-mode . 1)
  (pallet-init . 1)
  (pallet-install . 1)
- (youdao-dictionary-search-at-point . 8)
+ (youdao-dictionary-search-at-point . 12)
  (revert-buffer-with-coding-system . 3)
  (magit-stash-list . 1)
  (magit-log . 1)
@@ -90,7 +90,7 @@
  (helm-browse-project . 1)
  (helm-info-auctex . 1)
  (smartparens-global-mode . 1)
- (mkdir . 1)
+ (mkdir . 2)
  (insert-char . 1)
  (insert-p-tag . 3)
  (helm-projectile-find-file . 5)
@@ -99,4 +99,12 @@
  (kh/scheme-send-last-sexp . 1)
  (git-gutter:set-start-revision . 1)
  (git-gutter:next-hunk . 1)
+ (mc/edit-lines . 11)
+ (mc/insert-numbers . 15)
+ (mc/mark-next-like-this . 1)
+ (mc/add-cursor-on-click . 2)
+ (mc/mark-next-lines . 1)
+ (run-geiser . 5)
+ (org-sparse-tree . 1)
+ (flyspell-mode . 3)
 )
