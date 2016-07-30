@@ -1,4 +1,6 @@
-((("hungry-delete" .
+((("window" .
+   [0 0 0 0 1 0])
+  ("hungry-delete" .
    [0 0 0 0 1 0 0 0 0 0 0 0 0])
   ("expand-region" .
    [0 0 0 1 0 0 0 0 0 0 0 0 0])
@@ -21,7 +23,7 @@
   ("init-smartparens" .
    [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
   ("helm" .
-   [1 0 0 1])
+   [1 0 0 2])
   ("powerline" .
    [0 0 0 0 0 0 0 0 1])
   ("flycheck" .
@@ -39,7 +41,7 @@
   ("load-file" .
    [0 0 0 0 0 0 0 0 1])
   ("popwin" .
-   [0 0 0 0 0 1])
+   [0 0 0 0 1 1])
   ("counsel-describe-function" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
   ("open-init-file" .
@@ -317,4 +319,6 @@
   ("num" .
    [1 0 0])
   ("load-theme" .
-   [0 0 0 0 1 0 0 0 0 0])))
+   [0 0 0 0 1 0 0 0 0 0])
+  ("smex" .
+   [1 0 0 0])))

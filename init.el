@@ -18,7 +18,7 @@
 (require 'init-smartparens)
 
 ;; js 相关
-(require 'init-js2mode)
+;;(require 'init-js2mode)
 
 ;; popwin
 (require 'popwin)

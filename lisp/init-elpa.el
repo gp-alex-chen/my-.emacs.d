@@ -43,6 +43,19 @@ re-downloaded in order to locate PACKAGE."
 		      helm-projectile
 		      htmlize
 		      hungry-delete
+		      smex
+		      helm-swoop
+		      helm-ls-git
+		      smartparens
+		      nodejs-repl
+		      popwin
+		      org-pomodoro
+		      window-numbering
+		      powerline
+		      git-gutter
+		      multiple-cursors
+		      solarized-theme
+		      magit
 		      ) "Default packages")
 
 (setq package-selected-packages my/packages)
