@@ -2,6 +2,8 @@
 
 (setq org-agenda-files '("~/.emacs.d"))
 
+(setq org-confirm-babel-evaluate nil)
+
 (setq org-capture-templates
       '(("t" "TODO" entry (file+headline "~/.emacs.d/gtd.org" "工作安排")
 	 "* TODO [#B] %?\n %i\n"

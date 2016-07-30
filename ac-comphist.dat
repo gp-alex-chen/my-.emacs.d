@@ -1,4 +1,16 @@
-((("make-branch" .
+((("hungry-delete" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("expand-region" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("dash" .
+   [1 0 0 0])
+  ("database..." .
+   [0 0 1 0 0 0 0 0 0 0 0])
+  ("chinese-fonts-setup" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("auto-complete" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("make-branch" .
    [0 0 0 0 1 0 0 0 0 0 0])
   ("structure" .
    [0 0 0 1 0 0 0 0 0])
@@ -9,11 +21,11 @@
   ("init-smartparens" .
    [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
   ("helm" .
-   [0 0 0 1])
+   [1 0 0 1])
   ("powerline" .
    [0 0 0 0 0 0 0 0 1])
   ("flycheck" .
-   [0 0 0 0 0 0 0 1])
+   [0 0 0 1 0 0 0 1])
   ("add-to-list" .
    [0 0 0 0 0 0 0 0 0 0 1])
   ("global-hungry-delete-mode" .
@@ -303,4 +315,6 @@
   ("same-parity" .
    [0 0 0 1 0 0 0 0 0 0 0])
   ("num" .
-   [1 0 0])))
+   [1 0 0])
+  ("load-theme" .
+   [0 0 0 0 1 0 0 0 0 0])))

@@ -36,7 +36,6 @@
 ;; 高亮显示当前行
 (global-hl-line-mode t)
 
-
 ;; 无须询问是否递归删除或复制文件
 (setq dired-recursive-deletes 'always)
 (setq dired-recursive-copies 'always)
@@ -55,5 +54,8 @@
 (setq-default ispell-program-name "aspell")  
 ;; use American English as ispell default dictionary  
 (ispell-change-dictionary "american" t) 
+
+;; 自动全屏
+(setq initial-frame-alist (quote ((fullscreen . maximized))))
 
 (provide 'init-emacs-config)

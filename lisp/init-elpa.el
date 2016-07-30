@@ -24,4 +24,40 @@ re-downloaded in order to locate PACKAGE."
 ;; 而我们把大多数包的初始化函数都放在init.el中，如果不提前初始化ELPA会导致后面的
 ;; 初始化过程出错（对应的包文件还没有加载进来）。
 
+;; 根据 package 列表来自动下载 plugins
+(require 'cl)
+
+(defvar my/packages '(
+		      auto-complete
+		      auto-complete-clang
+		      company
+		      ace-jump-mode
+		      ag
+		      async
+		      chinese-fonts-setup
+		      color-theme
+		      dash
+		      expand-region
+		      flycheck
+		      helm
+		      helm-projectile
+		      htmlize
+		      hungry-delete
+		      ) "Default packages")
+
+(setq package-selected-packages my/packages)
+
+(defun my/packages-installed-p ()
+    (loop for pkg in my/packages
+	  when (not (package-installed-p pkg)) do (return nil)
+	  finally (return t)))
+
+(unless (my/packages-installed-p)
+    (message "%s" "Refreshing package database...")
+    (package-refresh-contents)
+    (dolist (pkg my/packages)
+      (when (not (package-installed-p pkg))
+	(package-install pkg))))
+
 (provide 'init-elpa)
+
