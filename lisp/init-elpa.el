@@ -56,6 +56,8 @@ re-downloaded in order to locate PACKAGE."
 		      multiple-cursors
 		      solarized-theme
 		      magit
+		      darcula-theme
+		      ox-latex-chinese
 		      ) "Default packages")
 
 (setq package-selected-packages my/packages)

@@ -30,4 +30,17 @@
 
 (setq scheme-program-name "guile")
 
+;; 图片大小
+
+(setq org-image-actual-width '(600))
+
+;; latex
+(require 'ox-latex)
+(unless (boundp 'org-latex-classes)
+  (setq org-latex-classes nil))
+(add-to-list 'org-latex-classes
+             '("article"
+               "\\documentclass{article}"
+               ("\\section{%s}" . "\\section*{%s}")))
+
 (provide 'init-org)

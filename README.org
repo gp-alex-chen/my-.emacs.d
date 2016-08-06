@@ -1,3 +1,34 @@
 * 简单的 emacs 配置
 
+** init-elpa
+从 MELPA 添加 packlist 列表. 首次运行下载
+
+** init-emacs-config
+emacs 的一些设置, 内附注释
+
+** init-org
+- 设置了 org-agenda, org-capture 用来记录待完成事项
+- 添加了 scheme 语言支持, 可以在 org 文件中运行 scheme
+- 加入 org-mode 官方文档中输出 pdf 的设置, 使 org 可以输出 pdf
+  具体方法:
+  - ubuntu 下安装 TexLive+Latex+CJK
+    #+BEGIN_SRC shell
+          sudo apt-get install texlive-full latex-beamer
+    #+END_SRC
+  - 安装 ox-latex-chinese (已放至 packlist 列表中)
+
+** auto-complete-config 
+- 全局使用
+- 菜单出现时间为 0.08 s
+- ~C-n~ ~C-p~ 选择内容
+
+** smex 
+替换原始 ~M-x~ 为 smex
+
+** helm
+~M-y~ ~C-c h~ ~C-x b~ ~C-x C-f~ ~C-s~ ~C-h SPC~ 等均替换为 helm 对应方法
+
+** magit
+添加了 git 支持
+
 

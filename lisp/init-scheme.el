@@ -32,7 +32,5 @@ PS: this function is inspired by Wang Yin."
          (other-window 1)))
   (scheme-send-last-sexp))
 
-
-
 (setq scheme-program-name "guile")
 (provide 'init-scheme)

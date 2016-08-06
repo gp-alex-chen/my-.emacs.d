@@ -2,17 +2,17 @@
 ;; ----- smex-history -----
 (
  package-list-packages
- org-mode
- package-install
- load-theme
- org-capture
- org-agenda
- rectangle-number-lines
+ mc/edit-lines
+ make-directory
+ select-tags-table
+ imenu
+ org-display-inline-images
+ org-toggle-inline-images
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 54)
+ (package-list-packages . 56)
  (list-packages . 3)
  (rectangle-number-lines . 31)
  (line-number-mode . 6)
@@ -25,7 +25,7 @@
  (auto-insert . 1)
  (auto-complete . 5)
  (auto-complete-mode . 23)
- (make-directory . 4)
+ (make-directory . 5)
  (package-install . 16)
  (cfs-edit-profile . 4)
  (delete-file . 1)
@@ -34,7 +34,7 @@
  (mark-whole-buffer . 7)
  (isearch-yank-x-selection . 1)
  (clipboard-kill-ring-save . 2)
- (magit-status . 19)
+ (magit-status . 20)
  (magit-push . 1)
  (magit-commit . 2)
  (ace-jump-mode . 6)
@@ -57,7 +57,7 @@
  (global-auto-complete-mode . 2)
  (grep . 3)
  (ag . 3)
- (imenu . 5)
+ (imenu . 7)
  (iedit-mode . 21)
  (custom-theme-visit-theme . 1)
  (org-capture . 11)
@@ -99,7 +99,7 @@
  (kh/scheme-send-last-sexp . 1)
  (git-gutter:set-start-revision . 1)
  (git-gutter:next-hunk . 1)
- (mc/edit-lines . 14)
+ (mc/edit-lines . 15)
  (mc/insert-numbers . 15)
  (mc/mark-next-like-this . 1)
  (mc/add-cursor-on-click . 2)
@@ -107,4 +107,8 @@
  (run-geiser . 8)
  (org-sparse-tree . 1)
  (flyspell-mode . 3)
+ (org-display-inline-images . 6)
+ (iimage-mode . 10)
+ (org-toggle-inline-images . 1)
+ (select-tags-table . 1)
 )
