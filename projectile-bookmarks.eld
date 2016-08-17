@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/SICP/" "~/.emacs.d.spacs/" "~/arithmetic/")
+("~/.emacs.d/" "~/SICP/" "~/AndroidStudioProjects/PassWordKeep/" "~/AndroidStudioProjects/android-FingerprintDialog-master/Application/" "~/.emacs.d.spacs/" "~/arithmetic/")

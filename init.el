@@ -12,7 +12,7 @@
 (require 'init-helm)
 ;; 加载主题
 ;; (load-theme 'monokai t)
-(load-theme 'darcula t)
+;; (load-theme 'darcula t)
 ;; 连删
 (require 'hungry-delete)
 ;; 括号匹配
@@ -36,7 +36,9 @@
 (require 'init-window-numbering)
 
 ;; youdao
-(setq url-automatic-caching t)
+(require 'init-youdao)
+;; (setq url-automatic-caching t)
+;; (global-set-key (kbd "M-i") 'youdao-dictionary-search)
 
 ;; scheme
 (require 'init-scheme)
@@ -47,22 +49,22 @@
 ;; mc
 (require 'init-multiple-cursors)
 
+;; 自定义
+(require 'init-custom)
+
 (provide 'init)
-
-;;;;;;;;;;;;;;;;;;;;   custom   ;;;;;;;;;;;;;;;;;;;;;;;;
-;; (custom-set-variables
-;;  ;; custom-set-variables was added by Custom.
-;;  ;; If you edit it by hand, you could mess it up, so be careful.
-;;  ;; Your init file should contain only one such instance.
-;;  ;; If there is more than one, they won't work right.
-;;  '(custom-safe-themes
-;;    (quote
-;;     ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default))))
-;; (custom-set-faces
-;;  ;; custom-set-faces was added by Custom.
-;;  ;; If you edit it by hand, you could mess it up, so be careful.
-;;  ;; Your init file should contain only one such instance.
-;;  ;; If there is more than one, they won't work right.
-;;  )
-;; (load-theme 'solarized-dark)
-
+;--------------------- custom  ---------------------;
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("c697b65591ba1fdda42fae093563867a95046466285459bd4e686dc95a819310" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" default))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

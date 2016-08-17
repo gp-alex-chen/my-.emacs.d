@@ -39,8 +39,10 @@ re-downloaded in order to locate PACKAGE."
 		      dash
 		      expand-region
 		      flycheck
+		      iedit
 		      helm
 		      helm-projectile
+		      helm-ag
 		      htmlize
 		      hungry-delete
 		      smex
@@ -58,6 +60,7 @@ re-downloaded in order to locate PACKAGE."
 		      magit
 		      darcula-theme
 		      ox-latex-chinese
+		      youdao-dictionary
 		      ) "Default packages")
 
 (setq package-selected-packages my/packages)

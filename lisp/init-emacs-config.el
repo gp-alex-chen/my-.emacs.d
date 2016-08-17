@@ -25,9 +25,6 @@
 ;; 不保存文件
 (setq make-backup-files nil)
 (setq auto-save-default nil)
-;; 设置 org 语法高亮
-(require 'org)
-(setq org-src-fontify-natively t)
 ;; 高亮括号
 (show-paren-mode 1)
 ;; 设置选词覆盖
@@ -53,7 +50,7 @@
 ;; use apsell as ispell backend  
 (setq-default ispell-program-name "aspell")  
 ;; use American English as ispell default dictionary  
-(ispell-change-dictionary "american" t) 
+(ispell-change-dictionary "american" t)
 
 ;; 自动全屏
 (setq initial-frame-alist (quote ((fullscreen . maximized))))

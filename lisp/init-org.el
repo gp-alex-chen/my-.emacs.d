@@ -22,6 +22,7 @@
 (org-babel-do-load-languages
       'org-babel-load-languages
       '((emacs-lisp . t)
+	(sh . t)
         (java . t)
 	(C . t)
 	(scheme . t)
@@ -36,11 +37,32 @@
 
 ;; latex
 (require 'ox-latex)
+(require 'ox-latex-chinese)
+(oxlc/toggle-ox-latex-chinese t)
+
 (unless (boundp 'org-latex-classes)
   (setq org-latex-classes nil))
+
 (add-to-list 'org-latex-classes
              '("article"
                "\\documentclass{article}"
-               ("\\section{%s}" . "\\section*{%s}")))
+               ("\\section{%s}" . "\\section*{%s}")
+               ("\\subsection{%s}" . "\\subsection*{%s}")
+               ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+               ("\\paragraph{%s}" . "\\paragraph*{%s}")
+               ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+
+;; 设置 org 语法高亮
+(require 'org)
+(require 'htmlize)
+(setq org-src-fontify-natively t)
+
+;; 忽略 _ 
+(setq-default org-use-sub-superscripts nil)
+
+;; 标题大小递减
+(set-face-attribute 'org-level-1 nil :height 1.6 :bold t)
+(set-face-attribute 'org-level-2 nil :height 1.4 :bold t)
+(set-face-attribute 'org-level-3 nil :height 1.2 :bold t)
 
 (provide 'init-org)
