@@ -46,6 +46,7 @@ re-downloaded in order to locate PACKAGE."
 		      htmlize
 		      hungry-delete
 		      smex
+		      lispy
 		      helm-swoop
 		      helm-ls-git
 		      smartparens
@@ -66,16 +67,15 @@ re-downloaded in order to locate PACKAGE."
 (setq package-selected-packages my/packages)
 
 (defun my/packages-installed-p ()
-    (loop for pkg in my/packages
-	  when (not (package-installed-p pkg)) do (return nil)
-	  finally (return t)))
+  (loop for pkg in my/packages
+	when (not (package-installed-p pkg)) do (return nil)
+	finally (return t)))
 
 (unless (my/packages-installed-p)
-    (message "%s" "Refreshing package database...")
-    (package-refresh-contents)
-    (dolist (pkg my/packages)
-      (when (not (package-installed-p pkg))
-	(package-install pkg))))
-
+  (message "%s" "Refreshing package database...")
+  (dolist (pkg my/packages)
+    (when (not (package-installed-p pkg))
+      (package-install pkg)))
+  (package-refresh-contents))
 (provide 'init-elpa)
 

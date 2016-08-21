@@ -4,9 +4,9 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
  (filename . "~/.emacs.d/gtd.org")
- (front-context-string . "** TODO [#B] [[h")
- (rear-context-string . "t-scheme.el 代码\n\n")
- (position . 357))
+ (front-context-string . "** TODO [#B] lis")
+ (rear-context-string . "ode文学编程]] 这篇文章\n\n")
+ (position . 416))
 ("1"
  (filename . "~/scheme/list.scm")
  (front-context-string . "1 \n2 \n3 \n4 \n5 \n6")

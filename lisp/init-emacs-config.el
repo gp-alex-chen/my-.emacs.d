@@ -58,4 +58,7 @@
 ;; expand-region
 (global-set-key (kbd "C-=") 'er/expand-region)
 
+;; add hook eldoc-mode
+(add-hook 'emacs-lisp-mode-hook 'eldoc-mode)
+
 (provide 'init-emacs-config)

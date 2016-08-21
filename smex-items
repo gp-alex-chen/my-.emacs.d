@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- mc/edit-lines
- split-window-left/right->up/down
- load-theme
- magit-status
- package-list-packages
- helm-do-ag
+ lispy-mode
  helm-ag
+ lisp-mode
+ org-agenda
+ org-capture
+ helm-M-x
+ package-list-packages
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 63)
+ (package-list-packages . 64)
  (list-packages . 3)
  (rectangle-number-lines . 31)
  (line-number-mode . 6)
@@ -34,7 +34,7 @@
  (mark-whole-buffer . 7)
  (isearch-yank-x-selection . 1)
  (clipboard-kill-ring-save . 2)
- (magit-status . 23)
+ (magit-status . 24)
  (magit-push . 1)
  (magit-commit . 2)
  (ace-jump-mode . 6)
@@ -45,13 +45,13 @@
  (run-scheme . 4)
  (ace-jump-char-mode . 1)
  (eval-buffer . 2)
- (load-theme . 35)
+ (load-theme . 37)
  (customize-group . 6)
  (smartparens-mode . 8)
  (nodejs-repl . 4)
  (nodejs-repl-send-buffer . 1)
  (find-function . 1)
- (org-agenda . 36)
+ (org-agenda . 37)
  (org-cycle-agenda-files . 2)
  (counsel-git . 1)
  (global-auto-complete-mode . 2)
@@ -60,9 +60,9 @@
  (imenu . 7)
  (iedit-mode . 23)
  (custom-theme-visit-theme . 1)
- (org-capture . 12)
+ (org-capture . 13)
  (org-pomodoro . 7)
- (helm-ag . 25)
+ (helm-ag . 26)
  (helm-do-ag-project-root . 4)
  (helm-ag-project-root . 1)
  (magit-remote-add . 2)
@@ -71,7 +71,7 @@
  (pallet-mode . 1)
  (pallet-init . 1)
  (pallet-install . 1)
- (youdao-dictionary-search-at-point . 15)
+ (youdao-dictionary-search-at-point . 16)
  (revert-buffer-with-coding-system . 3)
  (magit-stash-list . 1)
  (magit-log . 1)
@@ -93,7 +93,7 @@
  (mkdir . 2)
  (insert-char . 1)
  (insert-p-tag . 3)
- (helm-projectile-find-file . 5)
+ (helm-projectile-find-file . 7)
  (diff . 5)
  (scheme-mode . 1)
  (kh/scheme-send-last-sexp . 1)
@@ -118,5 +118,12 @@
  (org-md-export-to-markdown . 1)
  (Info-edit . 1)
  (helm-do-ag . 1)
- (split-window-left/right->up/down . 3)
+ (split-window-left/right->up/down . 7)
+ (split-window-up/down->left/right . 3)
+ (insert-equil-tag . 1)
+ (wrap-markup-region . 1)
+ (helm-M-x . 2)
+ (hydra-pause-resume . 1)
+ (lisp-mode . 1)
+ (lispy-mode . 3)
 )

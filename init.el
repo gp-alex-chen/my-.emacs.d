@@ -1,5 +1,6 @@
-;; 添加 lisp 目录
+ ;; 添加 lisp 目录
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
+
 ;; 加载ELPA，并定义了require-package函数
 (require 'init-elpa)
 ;; 加载 config
@@ -12,7 +13,7 @@
 (require 'init-helm)
 ;; 加载主题
 ;; (load-theme 'monokai t)
-;; (load-theme 'darcula t)
+;; (load-theme 'drcula t)
 ;; 连删
 (require 'hungry-delete)
 ;; 括号匹配
@@ -48,6 +49,9 @@
 
 ;; mc
 (require 'init-multiple-cursors)
+
+;; lispy
+(require 'init-lispy)
 
 ;; 自定义
 (require 'init-custom)

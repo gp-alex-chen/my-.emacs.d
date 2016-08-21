@@ -16,3 +16,5 @@ DEADLINE: <2016-05-22 日>
 ** TODO [#B] 总结 .emacs.d/lisp/init-scheme.el 代码
 ** DONE [#B] 阅读 [[https://emacs-china.org/t/org-mode/737][Org-mode文学编程]] 这篇文章
 
+** TODO [#B] lispy 学习
+
