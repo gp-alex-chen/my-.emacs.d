@@ -73,9 +73,9 @@ re-downloaded in order to locate PACKAGE."
 
 (unless (my/packages-installed-p)
   (message "%s" "Refreshing package database...")
+  (package-refresh-contents)
   (dolist (pkg my/packages)
     (when (not (package-installed-p pkg))
-      (package-install pkg)))
-  (package-refresh-contents))
+      (package-install pkg))))
 (provide 'init-elpa)
 

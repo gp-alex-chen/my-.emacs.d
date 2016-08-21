@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ magit-status
  lispy-mode
  helm-ag
  lisp-mode
  org-agenda
  org-capture
  helm-M-x
- package-list-packages
 )
 
 ;; ----- smex-data -----
@@ -34,7 +34,7 @@
  (mark-whole-buffer . 7)
  (isearch-yank-x-selection . 1)
  (clipboard-kill-ring-save . 2)
- (magit-status . 24)
+ (magit-status . 25)
  (magit-push . 1)
  (magit-commit . 2)
  (ace-jump-mode . 6)
