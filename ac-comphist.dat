@@ -1,9 +1,15 @@
-((("eldoc-mode" .
+((("init-major-mode-ui" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("global" .
+   [0 0 0 0 0 1])
+  ("emacs" .
+   [0 0 0 1 0])
+  ("eldoc-mode" .
    [0 0 1 0 0 0 0 0 0 0])
   ("lispy-mode" .
    [0 0 0 2 1 0 0 0 0 1])
   ("add-hook" .
-   [0 0 0 2 0 0 0 0])
+   [0 0 0 3 0 0 0 0])
   ("get-buffer-window" .
    [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
   ("init-custom" .
@@ -107,7 +113,7 @@
   ("midpoint" .
    [0 0 0 0 0 0 0 5])
   ("lambda" .
-   [0 0 0 1 0 1])
+   [0 0 1 2 0 1])
   ("define" .
    [0 1 4 1 0 25])
   ("sum-integers" .
@@ -301,7 +307,7 @@
   ("require" .
    [0 0 1 4 1 0 8])
   ("provide" .
-   [0 0 2 2 0 0 5])
+   [0 0 2 3 0 0 5])
   ("init-ivy" .
    [0 0 0 0 1 0 0 0])
   ("init-swiper" .

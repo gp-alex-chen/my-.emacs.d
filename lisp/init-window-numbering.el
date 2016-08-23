@@ -1,4 +1,4 @@
 (window-numbering-mode 1)
 (require 'powerline)
-(powerline-default-theme)
+;; (powerline-default-theme)
 (provide 'init-window-numbering)

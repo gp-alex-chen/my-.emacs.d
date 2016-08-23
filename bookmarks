@@ -2,14 +2,14 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("org-capture-last-stored"
+(("org"
  (filename . "~/.emacs.d/gtd.org")
- (front-context-string . "** TODO [#B] lis")
- (rear-context-string . "ode文学编程]] 这篇文章\n\n")
- (position . 416))
-("1"
- (filename . "~/scheme/list.scm")
- (front-context-string . "1 \n2 \n3 \n4 \n5 \n6")
- (rear-context-string . "\n3 \n4 \n5 \n6 \n7 \n")
- (position . 22))
+ (front-context-string . "** TODO [#B] 关注一")
+ (rear-context-string . " [#B] lispy 学习\n\n")
+ (position . 391))
+("org-capture-last-stored"
+ (filename . "~/.emacs.d/gtd.org")
+ (front-context-string . "** TODO [#B] 关注一")
+ (rear-context-string . " [#B] lispy 学习\n\n")
+ (position . 439))
 )

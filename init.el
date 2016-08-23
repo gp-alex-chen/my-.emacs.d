@@ -33,6 +33,9 @@
 ;; font
 (require 'chinese-fonts-setup)
 
+;; 美化 major-mode
+(require 'init-major-mode-ui)
+
 ;; window numbering
 (require 'init-window-numbering)
 

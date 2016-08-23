@@ -61,4 +61,7 @@
 ;; add hook eldoc-mode
 (add-hook 'emacs-lisp-mode-hook 'eldoc-mode)
 
+;; lambda to λ
+(global-prettify-symbols-mode 1)
+
 (provide 'init-emacs-config)

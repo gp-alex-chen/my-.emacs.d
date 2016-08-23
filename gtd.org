@@ -13,8 +13,15 @@ DEADLINE: <2016-05-22 日>
 ** DONE [#B] 实现 Xposed 插件处理 Umeng 类的统计插桩
 DEADLINE: <2016-05-22 日>
 
-** TODO [#B] 总结 .emacs.d/lisp/init-scheme.el 代码
 ** DONE [#B] 阅读 [[https://emacs-china.org/t/org-mode/737][Org-mode文学编程]] 这篇文章
 
-** TODO [#B] lispy 学习
+** DONE [#B] lispy 学习
 
+** TODO [#B] 关注一些emacs论坛, 社区
+*** [[https://www.reddit.com/r/emacs][reddit]]
+*** [[https://emacs-china.org][emacs-china]]
+*** [[http://planet.emacsen.org/]]
+*** [[http://irreal.org/blog/]]
+*** [[http://oremacs.com/]]
+*** [[http://sachachua.com/blog/category/emacs/]]
+*** http://ergoemacs.org/emacs/elisp.html
