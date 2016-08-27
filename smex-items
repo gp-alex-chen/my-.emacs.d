@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
+ youdao-dictionary-search-at-point+
+ ielm
  load-theme
+ package-list-packages
+ magit-status
  org-agenda
  prettify-symbols-mode
- newline
- youdao-dictionary-search-at-point
- package-list-packages
- rectangle-number-lines
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 64)
+ (package-list-packages . 65)
  (list-packages . 3)
  (rectangle-number-lines . 31)
  (line-number-mode . 6)
@@ -34,7 +34,7 @@
  (mark-whole-buffer . 7)
  (isearch-yank-x-selection . 1)
  (clipboard-kill-ring-save . 2)
- (magit-status . 26)
+ (magit-status . 27)
  (magit-push . 1)
  (magit-commit . 2)
  (ace-jump-mode . 6)
@@ -45,7 +45,7 @@
  (run-scheme . 4)
  (ace-jump-char-mode . 1)
  (eval-buffer . 2)
- (load-theme . 39)
+ (load-theme . 43)
  (customize-group . 6)
  (smartparens-mode . 8)
  (nodejs-repl . 4)
@@ -134,4 +134,6 @@
  (newline . 5)
  (prettify-symbols-mode . 1)
  (swiper-all . 1)
+ (ielm . 1)
+ (youdao-dictionary-search-at-point+ . 1)
 )
