@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- youdao-dictionary-search-at-point+
- ielm
- load-theme
+ package-install
  package-list-packages
+ load-theme
+ youdao-dictionary-search-at-point+
+ scheme-mode
  magit-status
- org-agenda
- prettify-symbols-mode
+ er/expand-region
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 65)
+ (package-list-packages . 67)
  (list-packages . 3)
  (rectangle-number-lines . 31)
  (line-number-mode . 6)
@@ -26,7 +26,7 @@
  (auto-complete . 5)
  (auto-complete-mode . 23)
  (make-directory . 5)
- (package-install . 16)
+ (package-install . 20)
  (cfs-edit-profile . 5)
  (delete-file . 1)
  (eww-open-file . 1)
@@ -34,7 +34,7 @@
  (mark-whole-buffer . 7)
  (isearch-yank-x-selection . 1)
  (clipboard-kill-ring-save . 2)
- (magit-status . 27)
+ (magit-status . 35)
  (magit-push . 1)
  (magit-commit . 2)
  (ace-jump-mode . 6)
@@ -45,7 +45,7 @@
  (run-scheme . 4)
  (ace-jump-char-mode . 1)
  (eval-buffer . 2)
- (load-theme . 43)
+ (load-theme . 46)
  (customize-group . 6)
  (smartparens-mode . 8)
  (nodejs-repl . 4)
@@ -95,7 +95,7 @@
  (insert-p-tag . 3)
  (helm-projectile-find-file . 7)
  (diff . 5)
- (scheme-mode . 1)
+ (scheme-mode . 2)
  (kh/scheme-send-last-sexp . 1)
  (git-gutter:set-start-revision . 1)
  (git-gutter:next-hunk . 1)
@@ -135,5 +135,6 @@
  (prettify-symbols-mode . 1)
  (swiper-all . 1)
  (ielm . 1)
- (youdao-dictionary-search-at-point+ . 1)
+ (youdao-dictionary-search-at-point+ . 3)
+ (er/expand-region . 4)
 )

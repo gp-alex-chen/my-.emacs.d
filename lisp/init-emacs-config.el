@@ -14,7 +14,7 @@
 (setq inhibit-startup-message t)
 
 (tool-bar-mode -1)
-(scroll-bar-mode -1)
+;; (scroll-bar-mode -1)
 (global-linum-mode t)
 
 ;; 设置 F2 为打开 init.el 快捷键
@@ -56,7 +56,7 @@
 (setq initial-frame-alist (quote ((fullscreen . maximized))))
 
 ;; expand-region
-(global-set-key (kbd "C-=") 'er/expand-region)
+(global-set-key (kbd "C-c =") 'er/expand-region)
 
 ;; add hook eldoc-mode
 (add-hook 'emacs-lisp-mode-hook 'eldoc-mode)
