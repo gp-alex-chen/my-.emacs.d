@@ -8,7 +8,7 @@
 (setq show-paren-style 'parenthesis)
 
 ;;设置f9调用speedbar命令
-(global-set-key [f9] 'speedbar)
+;; (global-set-key [f9] 'speedbar)
 
 ;;关闭emacs启动时的画面
 (setq inhibit-startup-message t)
@@ -48,8 +48,8 @@
 (set-language-environment "UTF-8")
 
 ;; use apsell as ispell backend  
-(setq-default ispell-program-name "aspell")  
-;; use American English as ispell default dictionary  
+(setq-default ispell-program-name "aspell")
+;; use American English as ispell default dictionary
 (ispell-change-dictionary "american" t)
 
 ;; 自动全屏

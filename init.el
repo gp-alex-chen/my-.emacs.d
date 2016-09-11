@@ -27,9 +27,9 @@
 ;; org
 (require 'init-org)
 ;; org-pomodoro
-(require 'org-pomodoro)
+;; (require 'org-pomodoro)
 ;; acg
-(require 'init-acg)
+;; (require 'init-acg)
 
 ;; font
 (require 'chinese-fonts-setup)
@@ -46,7 +46,7 @@
 ;; (global-set-key (kbd "M-i") 'youdao-dictionary-search)
 
 ;; scheme
-(require 'init-scheme)
+;; (require 'init-scheme)
 
 ;; git gutter
 (require 'init-git-gutter)

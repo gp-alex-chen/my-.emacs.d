@@ -30,39 +30,41 @@ re-downloaded in order to locate PACKAGE."
 (defvar my/packages '(
 		      auto-complete
 		      auto-complete-clang
-		      company
+		      ;; company
 		      ace-jump-mode
 		      ag
 		      async
 		      chinese-fonts-setup
 		      color-theme
 		      dash
+		      darcula-theme
 		      expand-region
 		      flycheck
-		      iedit
+		      git-gutter
 		      helm
 		      helm-projectile
 		      helm-ag
-		      htmlize
-		      hungry-delete
-		      smex
-		      lispy
 		      helm-swoop
 		      helm-ls-git
-		      smartparens
-		      nodejs-repl
-		      popwin
-		      org-pomodoro
-		      window-numbering
-		      powerline
-		      git-gutter
+		      htmlize
+		      hungry-delete
+		      iedit
+		      lispy
 		      multiple-cursors
-		      solarized-theme
 		      magit
-		      darcula-theme
+		      nodejs-repl
+		      org-pomodoro
 		      ox-latex-chinese
+		      popwin
+		      powerline
+		      smex
+		      smartparens
+		      sicp
+		      solarized-theme
+		      window-numbering
 		      youdao-dictionary
-		      ) "Default packages")
+		      )
+  "Default packages")
 
 (setq package-selected-packages my/packages)
 

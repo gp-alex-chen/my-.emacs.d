@@ -22,6 +22,6 @@ DEADLINE: <2016-05-22 日>
 *** [[https://emacs-china.org][emacs-china]]
 *** [[http://planet.emacsen.org/]]
 *** [[http://irreal.org/blog/]]
-*** [[http://oremacs.com/]]
 *** [[http://sachachua.com/blog/category/emacs/]]
+*** [[http://oremacs.com/]]
 *** http://ergoemacs.org/emacs/elisp.html

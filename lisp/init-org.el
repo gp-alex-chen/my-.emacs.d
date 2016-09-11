@@ -57,12 +57,12 @@
 (require 'htmlize)
 (setq org-src-fontify-natively t)
 
-;; 忽略 _ 
+;; 忽略 "_" 
 (setq-default org-use-sub-superscripts nil)
 
 ;; 标题大小递减
-(set-face-attribute 'org-level-1 nil :height 1.6 :bold t)
-(set-face-attribute 'org-level-2 nil :height 1.4 :bold t)
-(set-face-attribute 'org-level-3 nil :height 1.2 :bold t)
+(set-face-attribute 'org-level-1 nil :height 1.3 :bold t)
+(set-face-attribute 'org-level-2 nil :height 1.2 :bold t)
+(set-face-attribute 'org-level-3 nil :height 1.1 :bold t)
 
 (provide 'init-org)
