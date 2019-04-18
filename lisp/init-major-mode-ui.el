@@ -2,14 +2,13 @@
 (defun codefalling//simplify-major-mode-name ()
   "Return simplifyed major mode name"
   (let* ((major-name (format-mode-line "%m"))
-         (replace-table '(Emacs-Lisp "𝝀"
-                                     Spacemacs\ buffer "𝓢"
-                                     Python "𝝅"
+         (replace-table '(Emacs-Lisp "emacs-lisp"
+                                     Spacemacs\ buffer "spacemacs"
+                                     Python "p"
                                      Shell ">"
-                                     Makrdown "𝓜"
-                                     GFM "𝓜"
-                                     Org "𝒪"
-                                     Text "𝓣"
+                                     Makrdown "MD"
+                                     Org "org"
+                                     Text "txt"
                                      Fundamental "ℱ"
                                      ))
          (replace-name (plist-get replace-table (intern major-name))))

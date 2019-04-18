@@ -20,13 +20,13 @@
 (setq org-startup-indented t)
 
 (org-babel-do-load-languages
-      'org-babel-load-languages
-      '((emacs-lisp . t)
-	(sh . t)
-        (java . t)
-	(C . t)
-	(scheme . t)
-        (R . t)))
+ 'org-babel-load-languages
+ '((emacs-lisp . t)
+   (sh . t)
+   (java . t)
+   (C . t)
+   (scheme . t)
+   (R . t)))
 (setq org-src-fontify-natively t) 
 
 (setq scheme-program-name "guile")
@@ -57,12 +57,10 @@
 (require 'htmlize)
 (setq org-src-fontify-natively t)
 
-;; 忽略 "_" 
+;; 忽略 _ 
 (setq-default org-use-sub-superscripts nil)
 
-;; 标题大小递减
-(set-face-attribute 'org-level-1 nil :height 1.3 :bold t)
-(set-face-attribute 'org-level-2 nil :height 1.2 :bold t)
-(set-face-attribute 'org-level-3 nil :height 1.1 :bold t)
+;; fontify code in code blocks
+(setq org-src-fontify-natively t)
 
 (provide 'init-org)

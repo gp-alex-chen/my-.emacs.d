@@ -1,3 +1,6 @@
+;; 设置光标为竖线
+;; (setq-default cursor-type 'bar)
+
 ;;改变Emacs要你回答yes的行为。按y或空格键表示yes，n表示no。
 (fset 'yes-or-no-p 'y-or-n-p)
 
@@ -15,7 +18,9 @@
 
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
-(global-linum-mode t)
+
+;; 显示行号(大文件会卡)
+;; (global-linum-mode t)
 
 ;; 设置 F2 为打开 init.el 快捷键
 (defun open-init-file()
@@ -48,8 +53,8 @@
 (set-language-environment "UTF-8")
 
 ;; use apsell as ispell backend  
-(setq-default ispell-program-name "aspell")
-;; use American English as ispell default dictionary
+(setq-default ispell-program-name "aspell")  
+;; use American English as ispell default dictionary  
 (ispell-change-dictionary "american" t)
 
 ;; 自动全屏
@@ -64,4 +69,12 @@
 ;; lambda to λ
 (global-prettify-symbols-mode 1)
 
+;; 缩进
+(setq default-tab-width 4)
+
+(setq-default indent-tabs-mode nil)
+
+(setq c-default-style "linux")
+
+(setq c-basic-offset 4)
 (provide 'init-emacs-config)

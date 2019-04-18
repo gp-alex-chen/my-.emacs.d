@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/blog/" "~/SICP/" "~/AndroidStudioProjects/PassWordKeep/" "~/AndroidStudioProjects/android-FingerprintDialog-master/Application/" "~/.emacs.d.spacs/" "~/arithmetic/" "~/.spacemacs.d/")
+("d:/chen/js/" "d:/svn/repo_chenyuanzhang/plugin_mocker_cyz_sinaWeiBo/" "c:/Users/chengming-Cyz/Desktop/plugin_mocker_yhn_youku/" "d:/git/sicp/" "~/.emacs.d/" "~/SICP/" "~/.emacs.d.spacs/" "~/arithmetic/")

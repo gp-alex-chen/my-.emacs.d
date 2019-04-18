@@ -14,7 +14,7 @@
 ;; 禁止自动补全
 (setq helm-ff-auto-update-initial-value nil)
 
-(global-set-key (kbd "C-c x") 'helm-M-x)
+;;(global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
 (global-set-key (kbd "C-c h") 'helm-command-prefix)
 (global-set-key (kbd "C-x b") 'helm-mini)
@@ -26,11 +26,10 @@
 (define-key helm-map (kbd "C-i") 'helm-execute-persistent-action) ; make TAB works in terminal
 (define-key helm-map (kbd "C-z")  'helm-select-action) ; list actions using C-z
 
-;;模糊搜索
 (setq helm-split-window-in-side-p           t
       helm-move-to-line-cycle-in-source     t
       helm-ff-search-library-in-sexp        t
-      helm-M-x-fuzzy-match                  t
+      helm-M-x-fuzzy-match                  t   ; 模糊搜索
       helm-buffers-fuzzy-matching           t
       helm-locate-fuzzy-match               t
       helm-recentf-fuzzy-match              t

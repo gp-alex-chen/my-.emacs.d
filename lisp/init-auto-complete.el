@@ -1,5 +1,8 @@
 (require 'auto-complete-config)
 (global-auto-complete-mode t)
+(add-hook 'org-mode-hook
+	  'auto-complete-mode
+	  )
 
 ;; 按下TAB时首先缩进所在行，然后尝试补全
 (setq tab-always-indent 'complete)
@@ -13,5 +16,11 @@
 ;; Default settings
 (define-key ac-menu-map "\C-n" 'ac-next)
 (define-key ac-menu-map "\C-p" 'ac-previous)
+
+;; 阻止自动触发补全动作
+;; (setq-default ac-expand-on-auto-complete nil) 
+;; (setq-default ac-auto-start nil)
+;; 用TAB作为手动触发补全动作的快捷键
+;; (ac-set-trigger-key "
 
 (provide 'init-auto-complete)
