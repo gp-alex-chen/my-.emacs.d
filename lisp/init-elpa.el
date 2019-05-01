@@ -30,14 +30,13 @@ re-downloaded in order to locate PACKAGE."
 (defvar my/packages '(
 		      auto-complete
 		      auto-complete-clang
-		      ;; company
 		      ace-jump-mode
 		      ag
 		      async
-		      chinese-fonts-setup
+		      ;; chinese-fonts-setup
 		      color-theme
 		      dash
-		      darcula-theme
+		      ;; darcula-theme
 		      expand-region
 		      flycheck
 		      git-gutter
@@ -52,15 +51,16 @@ re-downloaded in order to locate PACKAGE."
 		      lispy
 		      multiple-cursors
 		      magit
+		      js2-mode
+		      ac-js2
 		      nodejs-repl
-		      org-pomodoro
-		      ox-latex-chinese
+		      ;; org-pomodoro
 		      popwin
 		      powerline
 		      smex
 		      smartparens
-		      sicp
-		      solarized-theme
+		      ;; sicp
+		      monokai-theme
 		      window-numbering
 		      youdao-dictionary
 		      )

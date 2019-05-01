@@ -26,7 +26,8 @@
         (java . t)
 	(C . t)
 	(scheme . t)
-        (R . t)))
+        ;; (R . t)
+	))
 (setq org-src-fontify-natively t) 
 
 (setq scheme-program-name "guile")
@@ -34,23 +35,6 @@
 ;; 图片大小
 
 (setq org-image-actual-width '(600))
-
-;; latex
-(require 'ox-latex)
-(require 'ox-latex-chinese)
-(oxlc/toggle-ox-latex-chinese t)
-
-(unless (boundp 'org-latex-classes)
-  (setq org-latex-classes nil))
-
-(add-to-list 'org-latex-classes
-             '("article"
-               "\\documentclass{article}"
-               ("\\section{%s}" . "\\section*{%s}")
-               ("\\subsection{%s}" . "\\subsection*{%s}")
-               ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
-               ("\\paragraph{%s}" . "\\paragraph*{%s}")
-               ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
 
 ;; 设置 org 语法高亮
 (require 'org)

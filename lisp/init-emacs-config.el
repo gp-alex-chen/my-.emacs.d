@@ -33,6 +33,12 @@
 ;; 高亮显示当前行
 (global-hl-line-mode t)
 
+;; 改变光标
+(setq-default cursor-type 'bar)
+
+;; 关闭错误声音
+(setq ring-bell-function 'ignore)
+
 ;; 无须询问是否递归删除或复制文件
 (setq dired-recursive-deletes 'always)
 (setq dired-recursive-copies 'always)

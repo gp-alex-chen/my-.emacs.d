@@ -1,4 +1,4 @@
-(defun split-window-left/right2up/down ()
+(defun split-window-up/down ()
   "把左右两屏调整为上下两屏.
        A
 A|B => -
@@ -16,7 +16,7 @@ A|B => -
     ;; 选中原来 buffer 所在的 window
     (select-window (get-buffer-window buf))))
 
-(defun split-window-up/down2left/right ()
+(defun split-window-left/right ()
   "把上下两屏调整为左右两屏.
     A
    --- A|B =>

@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/blog/" "~/SICP/" "~/AndroidStudioProjects/PassWordKeep/" "~/AndroidStudioProjects/android-FingerprintDialog-master/Application/" "~/.emacs.d.spacs/" "~/arithmetic/" "~/.spacemacs.d/")
+("~/.emacs.d/" "~/gua/" "~/aosp/frameworks/base/cmds/xposed/" "~/Android/xposed_cm/" "~/Android/xposed/" "~/aosp/build/" "~/aosp/" "~/aosp/art/" "~/Note-Algorithm/")
