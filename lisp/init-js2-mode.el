@@ -24,6 +24,11 @@
 
 (add-hook 'js2-mode-hook 'hungry-delete-mode)
 
+(require 'xref-js2)
+(define-key js-mode-map (kbd "M-.") nil)
+
+(add-hook 'js2-mode-hook (lambda () (add-hook 'xref-backend-functions #'xref-js2-xref-backend nil t)))
+
 ;; 解决一下快捷键冲突
 (define-key js2-mode-map (kbd "M-j") nil)
 

@@ -75,7 +75,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (yasnippet-snippets yasnippet web-mode auto-complete auto-complete-clang ace-jump-mode ag async color-theme dash expand-region flycheck git-gutter helm helm-projectile helm-ag helm-swoop helm-ls-git htmlize hungry-delete iedit lispy multiple-cursors magit js2-mode ac-js2 nodejs-repl popwin powerline smex smartparens monokai-theme window-numbering youdao-dictionary))))
+    (xref-js2 yasnippet-snippets yasnippet web-mode auto-complete auto-complete-clang ace-jump-mode ag async color-theme dash expand-region flycheck git-gutter helm helm-projectile helm-ag helm-swoop helm-ls-git htmlize hungry-delete iedit lispy multiple-cursors magit js2-mode ac-js2 nodejs-repl popwin powerline smex smartparens monokai-theme window-numbering youdao-dictionary))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
